@@ -23,6 +23,8 @@ app.get('/api/health', (req, res) => {
   res.json({ message: 'Task Manager API is running!' });
 });
 
-app.listen(PORT, () => {
+/*app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
-});
+});*/
+
+module.exports = app;
